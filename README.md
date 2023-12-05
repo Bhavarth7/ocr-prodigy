@@ -17,11 +17,11 @@ OCR Prodigy is a full-stack MERN project leveraging the Google Cloud Vision API 
    ```bash
    git init
 2. **Frontend**
-  cd ..
-  cd Frontend
-  cd ocr
-  npm install
-  npm start
+    ```cd ..
+      cd Frontend
+      cd ocr
+      npm install
+      npm start
 
 
 API Endpoints
