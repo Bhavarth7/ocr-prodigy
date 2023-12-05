@@ -23,7 +23,14 @@ OCR Prodigy is a full-stack MERN project leveraging the Google Cloud Vision API 
       npm install
       npm start
 UI of webpage
-<img width="960" alt="image" src="https://github.com/Bhavarth7/ocr-prodigy/assets/76651028/b2153cdb-a187-407b-b256-d7883b1cd3d3">
+
+<img width="920" alt="image" src="https://github.com/Bhavarth7/ocr-prodigy/assets/76651028/d0c3f9ec-beec-475e-b8d7-0f8c7961b0b8">
+
+After Uploading the given sample id photo
+Output of text extraction is given below.
+
+<img width="828" alt="image" src="https://github.com/Bhavarth7/ocr-prodigy/assets/76651028/df1df7e6-b491-4a47-a3f1-f3875fb0090d">
+
 
 
 
