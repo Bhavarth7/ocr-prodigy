@@ -25,8 +25,8 @@ OCR Prodigy is a full-stack MERN project leveraging the Google Cloud Vision API 
 
 
 API Endpoints
-POST /api/users/upload: Create a new ID card entry.
-PUT /api/users/:id: Update an existing ID card entry.
-DELETE /api/users/:id: Delete an ID card entry.
-GET /api/users: Retrieve all ID card entries.
-GET /api/users/:id: Retrieve one ID card entry using its ID.
+1. POST /api/users/upload: Create a new ID card entry.
+2. PUT /api/users/:id: Update an existing ID card entry.
+3. DELETE /api/users/:id: Delete an ID card entry.
+4. GET /api/users: Retrieve all ID card entries.
+5. GET /api/users/:id: Retrieve one ID card entry using its ID.
