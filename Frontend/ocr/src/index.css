@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+/*  */
+
+
+/* Additional styles */
+
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a base font size and line height for better readability */
+html {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Apply styles to headings for better hierarchy and readability */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+/* Set default styles for paragraphs */
+p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+/* Apply styles to anchor tags for better link presentation */
+a {
+  color: #235789;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #25a18e;
+}
+
+/* Apply basic styles for buttons */
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Apply styles for primary and secondary buttons */
+.primary-btn {
+  background-color: #25a18e;
+  color: #fff;
+  border: none;
+}
+
+.secondary-btn {
+  background-color: #78c3fb;
+  color: #fff;
+  border: none;
+}
+
+.primary-btn:hover, .secondary-btn:hover {
+  opacity: 0.8;
+}
+
+/* Apply styles for input fields */
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #235789;
+}

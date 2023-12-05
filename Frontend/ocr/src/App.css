@@ -1,0 +1,204 @@
+/* body {
+  background-color: #FFFFFC;
+} */
+
+.ocr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #235789;
+}
+
+.ocr p {
+  padding: 1.2rem 2rem;
+  margin-top: 1rem;
+  /* border-bottom: 10px solid #235789; */
+}
+
+.upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.upload input {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+
+}
+
+
+
+.upload .btn2 {
+  padding: 0.5rem 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 18px;
+  font-weight: bold;
+  background-color: #2194ec;
+  color: whitesmoke;
+  border-color: #78C3FB;
+}
+.upload .btn2:hover {
+  background-color: #e2f0ee;
+  color: #081917;
+}
+
+/* .upload .btn {
+  padding: 0.5rem 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 18px;
+  font-weight: bold;
+  background-color: #081917;
+  color: whitesmoke;
+  border-color: #68d7c5;
+  margin-left: 2rem;
+} */
+.upload .btn {
+  padding: 0.5rem 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 18px;
+  font-weight: bold;
+  background-color: #081917;
+  color: whitesmoke;
+  border: 2px solid #68d7c5;
+  margin-left: 2rem;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.upload .btn:hover {
+  background-color: #68d7c5;
+  color: #081917;
+}
+
+
+.par {
+  display: flex;
+  margin-left: 10%;
+  /* border: 10px solid #235789; */
+  margin-top: 2rem;
+  overflow: hidden;
+
+}
+
+.par img {
+  width: 100%;
+  height: auto;
+  max-width: 30rem;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.par .items {
+  font-size: 25px;
+  padding-left: 15rem;
+  /* margin-top: rem; */
+  font-weight: bold;
+  /* margin-left: -10rem; */
+}
+
+/*  */
+
+
+
+
+/* Additional styles for the OCR recognition app */
+
+/* Updated body background color */
+body {
+  background-color: #092635;
+  font-family: Arial, sans-serif;
+}
+
+/* Styles for OCR section */
+.ocr {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.ocr p {
+  padding: 1.2rem 2rem;
+  margin-top: 1rem;
+  background-color: #235789;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for file upload section */
+.upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.upload input {
+  display: none;
+}
+
+.upload label {
+  padding: 0.5rem 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.upload label:first-of-type {
+  background-color: #78c3fb;
+  color: whitesmoke;
+  border: 2px solid #78c3fb;
+}
+
+.upload label:last-of-type {
+  background-color: #25a18e;
+  color: whitesmoke;
+  border: 2px solid #25a18e;
+  margin-left: 1rem;
+}
+
+.upload label:hover {
+  background-color: #235789;
+  border-color: #235789;
+}
+
+/* Styles for result display section */
+.par {
+  display: flex;
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.par img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.par .items {
+  margin-left: 2rem;
+}
+
+.par p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.par span {
+  font-weight: bold;
+  color: #235789;
+}
