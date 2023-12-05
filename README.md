@@ -22,6 +22,9 @@ OCR Prodigy is a full-stack MERN project leveraging the Google Cloud Vision API 
       cd ocr
       npm install
       npm start
+UI of webpage
+<img width="960" alt="image" src="https://github.com/Bhavarth7/ocr-prodigy/assets/76651028/b2153cdb-a187-407b-b256-d7883b1cd3d3">
+
 
 
 API Endpoints
