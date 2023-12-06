@@ -44,7 +44,7 @@ The goal of this application is to accurately extract data from Thai ID cards vi
 
 <img width="920" alt="image" src="https://github.com/Bhavarth7/ocr-prodigy/assets/76651028/d0c3f9ec-beec-475e-b8d7-0f8c7961b0b8">
 
-##After Uploading the given sample id photo
+## After Uploading the given sample id photo
 Output of text extraction is given below.
 
 <img width="828" alt="image" src="https://github.com/Bhavarth7/ocr-prodigy/assets/76651028/df1df7e6-b491-4a47-a3f1-f3875fb0090d">
